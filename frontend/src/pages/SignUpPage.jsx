@@ -36,7 +36,7 @@ const SignUpPage = () => {
   };
 
   const handleSubmit = (e) => {
-    e.perventDefault();
+    e.preventDefault();
 
     const success = validateForm();
 
